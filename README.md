@@ -1,7 +1,7 @@
 # Introgression-tools
 Rcpp functions for calculating the Predicted Cross Value, and Meiosis simulator
 
-The function wp implements the Predicted Cross Value calculation from Han et al. 2016, indicating the probability of an ideal gamete being created from the progeny of the cross when meiosis occurs next.
+The function pcv implements the Predicted Cross Value calculation from Han et al. 2017, indicating the probability of an ideal gamete being created from the progeny of the cross when meiosis occurs next.
 
 ####################################################################################
 
