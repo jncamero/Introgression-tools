@@ -8,6 +8,7 @@ The function meiosis implements diploid meiosis
 
 #Example1: Meiosis
 Arguments: 1) number of random progeny to create, 2) recombination rate between loci, 3) parent A, 4) parent B
+
 #Load Rcpp 
 library(Rcpp)
 
