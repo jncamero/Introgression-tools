@@ -15,8 +15,10 @@ sourceCpp("Meiosis.cpp")
 parentA=cbind(c(1,0,1,0,1),c(1,0,1,0,1))
 parentB=cbind(c(0,1,0,1,0),c(0,1,0,1,0))
 
-#Genetic distance (recombination rate) between loci.  Note: This vector is the same length as number of loci, and the first entry is always 0.5
+#Genetic distance (recombination rate) between loci. 
+Note: This vector is the same length as number of loci, and the first entry is always 0.5
 #in accordance with mendelian inheritance
+
 rr=c(0.5,0.1,0.2,0.3,0.4)
 
 #Run the function, generating 5 random progeny from the cross of parentA and parentB, with recombination rate defined
