@@ -61,4 +61,5 @@ cl<-matrix(c(0,1),nrow=1,ncol=2)
 rr=c(0.5,0.1,0.2)
 
 pcv(pop,cl,rr)
+
 [1] 0.01
