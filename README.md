@@ -13,15 +13,17 @@ library(Rcpp)
 sourceCpp("Meiosis.cpp")
 
 parentA=cbind(c(1,0,1,0,1),c(1,0,1,0,1))
+
 parentB=cbind(c(0,1,0,1,0),c(0,1,0,1,0))
 
 #Genetic distance (recombination rate) between loci. 
-Note: This vector is the same length as number of loci, and the first entry is always 0.5
+#Note: This vector is the same length as number of loci, and the first entry is always 0.5
 #in accordance with mendelian inheritance
 
 rr=c(0.5,0.1,0.2,0.3,0.4)
 
 #Run the function, generating 5 random progeny from the cross of parentA and parentB, with recombination rate defined
+
 meiosis(5,rr,parentA,parentB)
 
      [,1][,2] [,3][,4]
@@ -39,12 +41,15 @@ meiosis(5,rr,parentA,parentB)
 
 #Example2: Predicted Cross Value
 #Load Rcpp 
+
 library(Rcpp)
 
 #load function file
+
 sourceCpp("pcv.cpp")
 
 #Population: 2 diploid individuals, where allele 1 is desirable and allele 0 is undesirable
+
 pop<-cbind(c(1,0,1),c(1,0,1),c(0,1,0),c(0,1,0))
 
 #Cross list: the matrix of all crosses to evaluate PCV for, where each row is a cross combo
