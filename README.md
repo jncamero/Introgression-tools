@@ -10,6 +10,7 @@ The function meiosis implements diploid meiosis
 Arguments: 1) number of random progeny to create, 2) recombination rate between loci, 3) parent A, 4) parent B
 
 library(Rcpp)
+
 sourceCpp("Meiosis.cpp")
 
 parentA=cbind(c(1,0,1,0,1),c(1,0,1,0,1))
