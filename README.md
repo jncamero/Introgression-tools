@@ -25,7 +25,7 @@ rr=c(0.5,0.1,0.2,0.3,0.4)
 
 #Run the function, generating 5 random progeny from the cross of parentA and parentB, with recombination rate defined
 
-meiosis(5,rr,parentA,parentB)
+meiosis(1,rr,parentA,parentB)
 
      [,1][,2] [,3][,4]
 [1,]    0 1    0 0
