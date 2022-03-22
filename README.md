@@ -9,9 +9,9 @@ The function **Meiosis** implements diploid meiosis
 
 Arguments: 
 1) number of random progeny to create, 
-2) 2) recombination rate between loci, 
-3) 3) parent A, 
-4) 4) parent B
+2) recombination rate between loci, 
+3) parent A, 
+4) parent B
 
 library(Rcpp)
 
