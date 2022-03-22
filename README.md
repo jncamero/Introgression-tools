@@ -39,7 +39,7 @@ meiosis(1,rr,parentA,parentB)
 
 Each vector pair is a random progeny
 
-Example2: Predicted Cross Value
+**Example2: Predicted Cross Value**
 Load Rcpp 
 
 library(Rcpp)
