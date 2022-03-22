@@ -6,7 +6,12 @@ The function pcv implements the Predicted Cross Value calculation from Han et al
 The function **Meiosis** implements diploid meiosis
 
 **Example1: Meiosis**
-Arguments: 1) number of random progeny to create, 2) recombination rate between loci, 3) parent A, 4) parent B
+
+Arguments: 
+1) number of random progeny to create, 
+2) 2) recombination rate between loci, 
+3) 3) parent A, 
+4) 4) parent B
 
 library(Rcpp)
 
