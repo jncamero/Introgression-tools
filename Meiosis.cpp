@@ -2,7 +2,6 @@
 // [[Rcpp::depends(RcppArmadillo)]]
 
 using namespace Rcpp;
-// m in the length of the genome (i.e. number of loci)
 // n of progeny to create
 //rr is the recombination rate between loci
 //a is the first parent (or homologous chromosome set) of parent 1
